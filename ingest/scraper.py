@@ -14,6 +14,6 @@ def save_data(raw_data):
 
 def scrape(email):
     """Scrape email contents and write to file.
-    """
+    """ 
     raw_data = email_scraper(email)
     save_data(raw_data)
